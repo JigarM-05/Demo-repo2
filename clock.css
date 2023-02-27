@@ -1,0 +1,50 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap'); */
+
+:root
+{
+    --neonc:rgb(64, 201, 0);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background: black;
+}
+
+.clock
+{
+    display: flexbox;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 35vh;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Iceland', cursive;
+    text-shadow: 0 0 0px white,
+                 0 0 6px white,
+                 2px 0 var(--neonc),
+                 4px 0 var(--neonc),
+                 -2px 0 var(--neonc),
+                 -4px 0 var(--neonc),
+                 0 0 5px var(--neonc),
+                 0 0 20px var(--neonc),
+                 0 0 30px var(--neonc),
+                 0 0 40px var(--neonc),
+                 0 0 60px var(--neonc);
+
+    letter-spacing: 5px;
+}
+.clock:hover
+{
+    text-shadow: 0 0 0px white;
+}

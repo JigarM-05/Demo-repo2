@@ -1,0 +1,11 @@
+.mainbody
+{
+    width: 75%;
+    height: 50%;
+    border: 1px solid white;
+}
+.dblock
+{
+    height: 5vh;
+    font-size: 25px;
+}
